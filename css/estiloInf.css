@@ -1,0 +1,76 @@
+@font-face{
+	font-family: "Wedges";
+	src:url("../fonts/Wedges.ttf");
+}
+@font-face{
+	font-family: "PetitCochon";
+	src:url("../fonts/PetitCochon.ttf");
+}
+@font-face{
+	font-family: "OpenSans";
+	src:url("../fonts/OpenSans.ttf");
+}
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+body, html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+body{
+	font-size: 14px;
+}
+header{
+	background-color: #00FFFF;
+	font-size: 1.5rem;
+	font-family: wedges;
+	color: blue;
+}
+.accordion-item{
+	background-color: rgba(0, 225, 255, 0.4);
+	font-size: 1rem;
+}
+.accordion-button{
+	background-color: rgba(0, 0, 255, .2);
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+#Logotipo{
+	width: 75px;
+}
+#carouselExampleFade{
+	background: rgba(0, 0, 0, .3);
+	padding: 20px;
+	border-radius: 20px;
+}
+.card{
+	background: transparent;
+	font-size: 1.2rem;
+}
+#preg{
+	background-color: rgba(0, 225, 255, 0.3);
+	border-radius: 30px;
+}
+.card-title{
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+.card-text{
+	font-size: 1.3rem;
+	text-align: start;
+	font-weight: lighter;
+}
+.burbuja{
+    border-radius: 50%;
+    background-color: rgba(0, 225, 255, 0.7);
+    position: absolute;
+    bottom: -250px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    z-index: -1;
+}

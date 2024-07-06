@@ -1,0 +1,106 @@
+@font-face{
+	font-family: "Wedges";
+	src:url("../fonts/Wedges.ttf");
+}
+@font-face{
+	font-family: "PetitCochon";
+	src:url("../fonts/PetitCochon.ttf");
+}
+@font-face{
+	font-family: "OpenSans";
+	src:url("../fonts/OpenSans.ttf");
+}
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+body, html {
+    height: 100%;
+    width: 100%;
+}
+#Logotipo{
+	width: 400px;
+}
+html{
+	font-size:14px;
+}
+body{
+	overflow: hidden;
+	font-size: 14px;
+}
+header{
+    background-color: #00FFFF;
+}
+
+.nav-link, .burbujas{
+	color: #5E78EF !important;
+    font-family: wedges,cursive !important;
+	font-size: 4rem;
+	text-shadow: -1px -1px 0 white, 1px -1px 0 white, 1px 1px 0 white,
+    1px 1px 0 white;
+	
+}
+.nav-link:hover{
+	font-weight: bolder !important;
+	color: black !important;
+}
+.left{	
+	font-family: "OpenSans",cursive !important;
+	color: black;
+}
+.right{
+	background: url(../images/fondo.jpg) no-repeat !important;
+	overflow: hidden;
+	background-size: cover !important;
+}
+.rightcont{
+	font-family: OpenSans;
+	background-color: rgba(253, 255, 151, .4);
+	color: black;
+	margin-bottom: 20px;
+	border-radius: 20px;
+}
+/* .textl{
+
+} */
+
+.container-fluid {
+    padding: 0;
+	height: 100vh;
+}
+.row {
+    margin: 0;
+	height: 100%;
+	vertical-align: middle;
+}
+@media (max-width: 768px) {
+    .left, .right {
+        height: 100%;
+		font-size: 1.5rem;
+    }
+	
+	
+}
+.left, .right {
+	height: 50vh;
+}
+@media screen and (min-width:768px){
+	/* .textl{
+        font-size: 2rem;
+	} */
+}
+@media (min-width: 992px) {
+	.left, .right {
+		height: 100%;
+	}
+	.left{
+		font-size: 2rem;
+	}
+	#Logotipo{
+		top: -150px;
+		width: 500px;
+	}
+}
+
+    
